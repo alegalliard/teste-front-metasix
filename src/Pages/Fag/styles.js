@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     background: #fafafa;
-    height: 100%;
 
     .button {
         display: flex;
