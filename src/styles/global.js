@@ -16,6 +16,11 @@ export default createGlobalStyle`
   body {
     -webkit-font-smoothing: antialiased;
     font-family: 'Roboto', sans-serif;
+    margin: 0 45px;
+
+    @media (max-width: 700px) {
+        margin: 0;
+    }
   }
   body, input, button {
       font-family: 'Roboto', sans-serif;
