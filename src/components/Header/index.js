@@ -14,16 +14,16 @@ export default function Header() {
                 <img src={logo} alt="logo" />
                 <ul>
                     <li className="modules">
-                        <li>
+                        <p>
                             <i className="fas fa-th" />
-                        </li>
-                        <li>Módulos</li>
+                        </p>
+                        <p>Módulos</p>
                     </li>
                     <li className="log-out">
-                        <li>
+                        <p>
                             <i className="fas fa-sign-out-alt" />
-                        </li>
-                        <li className="log-out-text">Log out</li>
+                        </p>
+                        <p className="log-out-text">Log out</p>
                     </li>
                     <button
                         type="button"

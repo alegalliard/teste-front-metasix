@@ -33,13 +33,13 @@ export default function Fag() {
             <div className="nav-question">
                 <ul>
                     <li className="description-search">
-                        <li>Pergunta</li>
-                        <li>
+                        <p>Pergunta</p>
+                        <p>
                             <button type="button">
                                 <i className="fas fa-plus-circle" />
                                 &nbsp; Nova Pergunta
                             </button>
-                        </li>
+                        </p>
                     </li>
                     <li className="order">Ordem</li>
                     <li className="edit">Editar</li>
@@ -54,13 +54,13 @@ export default function Fag() {
                             <span>{fag.question}</span>
                         </li>
                         <li className="icons">
-                            <li className="order-data">{fag.position}</li>
-                            <li className="edit-data">
+                            <p className="order-data">{fag.position}</p>
+                            <p className="edit-data">
                                 <i className="fas fa-edit" />
-                            </li>
-                            <li className="trash-data">
+                            </p>
+                            <p className="trash-data">
                                 <i className="fas fa-trash" />
-                            </li>
+                            </p>
                         </li>
                     </ul>
                 ))}

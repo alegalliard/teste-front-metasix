@@ -6,6 +6,13 @@ export const Container = styled.div`
     .button {
         display: flex;
         margin-left: 4rem;
+        a {
+            text-decoration: none;
+        }
+
+        .btnFag {
+            background: blue;
+        }
     }
 
     @media (max-width: 700px) {
